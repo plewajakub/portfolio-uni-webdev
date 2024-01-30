@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+    <style>
+        .carousel-item img {
+            height: 500px;
+
+            object-fit: cover;
+
+        }
+        .carousel-caption h5, .carousel-caption p {
+            color: white;
+        }
+        .carousel-caption {  
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+    </style>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Jakub Plewa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+                aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarID">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </div>
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="aboutme.html">About me</a>
+                </div>
+                <div class="navbar-nav">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </div>
+                <div class="navbar-nav">
+                    <a class="nav-link" href="hireme.html">Hire me!</a>
+                </div>
+                <div class="navbar-nav">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/img/business_laptop.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Project focused</h5>
+                    <p>I focus my learning by engaging in various projects and trying out new technologies.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="/img/programming_stock.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Multiple technologies</h5>
+                    <p>I am able to adjust to your preferred technologies used in the project. No tech stack is off-limits for me!.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/client.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Client oriented</h5>
+                    <p>Everything i do is built arount the client's preferences.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container py-4">
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Jakub Plewa</h1>
+                <p class="col-md-8 fs-4">Aspiring fullstack developer with a keen interest in crafting seamless digital experiences. My journey
+                into the world of coding began with a fascination for problem-solving and a drive to create solutions that enhance user
+                interactions. From front-end design to back-end functionality, I thrive on the challenge of bringing ideas to life
+                through lines of code.</p>
+            </div>
+        </div>
+    
+        <div class="row align-items-md-stretch">
+            <div class="col-md-6">
+                <div class="h-100 p-5 text-bg-dark rounded-3">
+                    <h2>Passions</h2>
+                    <p>Passionate about multiplayer video games and virtual communities. 
+                        Studying everything surrounding online subcultures. Big fan of long, oddly specific YouTube video essays.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                    <h2>Technologies</h2>
+                    <p>As a software developer, I specialize in crafting applications and solutions using a blend of Angular JavaScript,
+                    TypeScript, and Node.js technologies. With expertise in frontend development using Angular and TypeScript, I design
+                    dynamic and interactive user interfaces that elevate user experiences. Leveraging the power of Node.js on the backend, I
+                    architect robust and scalable server-side applications, ensuring seamless communication between the client and server.
+                    My passion lies in creating innovative solutions that harness the latest advancements in technology, driving efficiency
+                    and excellence in every project I undertake.</p>
+                    <a role="button" class="btn btn-outline-secondary" href="https://github.com/plewajakub" type="button">Check my GitHub</a>
+                </div>
+            </div>
+        </div>
+    
+
+
+</body>
+<div class="container">
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="aboutme.html" class="nav-link px-2 text-body-secondary">About me</a></li>
+            <li class="nav-item"><a href="projects.html" class="nav-link px-2 text-body-secondary">Projects</a></li>
+            <li class="nav-item"><a href="hireme.html" class="nav-link px-2 text-body-secondary">Hire me!</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">&copy; 2024 Jakub Plewa</p>
+    </footer>
+</div>
+</html>
